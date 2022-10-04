@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.header{
+	background-image: linear-gradient(rgba(255, 63, 58, 0.2), rgba(247, 94, 5, 0.2));
+	min-height: 100px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid gray;
+}
+
+.title {
+font-family: 'Lato';
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	text-align: center;
+	padding-top: 19px;
+	
+}
+
+/* Верстка із макету*/
+
+.begin__container{
+font-family: "Lato";
+color: #1E212C;
+}
+
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+h2{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+}
+
+.begin__title{
+	margin-bottom: 46px;
+}
+
+.begin__main-text{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 44px;
+}
+
+h3{
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	margin-bottom: 28px;
+}
+
+.list{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 44px;
+}
+
+.list ul {
+	margin-bottom: 24px;
+}
+
+.list li {
+	margin-bottom: 4px;
+	padding-left: 32px;
+	background: url('../icons/check.png') 0 6px no-repeat;
+}
+
+.course{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	margin-bottom: 12px;
+	text-transform: uppercase;
+}
+
+
+.end{
+margin-bottom: 16px;
+}
+
+.senior {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	color: #787A80;
+	margin-bottom: 34px ;
+}
+
+
+.icons {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 160%;
+	margin-bottom: 28px;
+}
+
+.icons ul {
+	margin-bottom: 4px;
+}
+
+
+.star {
+	padding-left: 20px ;
+	background: url('../icons/Star.png') 0 4px no-repeat;
+}
+.vector {
+	padding-left: 20px;
+	background: url('../icons/Vector.png') 0 4px no-repeat;
+}
+
+.human {
+	padding-left: 20px;
+	background: url('../icons/human.png') 0 4px no-repeat;
+}
+
+.bottom{
+	margin-bottom: 20px;
+}
+.image__container{
+	background: url('../icons/cursor.png') 158px 20px no-repeat;
+}
+.social{
+	margin-bottom: 200px;
+}
+
+
+/* Верстка всіх тегів із уроку 8 */
+
+
+
+.cat{
+	background-color: rgba(255, 204, 204, 0.5);
+	text-align: center;
+}
+
+.cat__title{
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: brown;
+}
+
+.cat__img {
+	margin-bottom: 15px;
+}
+
+.cat__img img {
+	max-width: 100%;
+}
+
+h5{
+	margin-bottom: 20px;
+	line-height: 150%;
+	border: 2px solid black;
+	}
+
+	ol li{
+		margin-bottom: 8px;
+}
+
+.facts{
+	margin-top: 15px;
+	margin-bottom: 15px ;
+}
+
+form{
+	margin-bottom: 15px;
+}
+
+.cat__title:hover{
+color: rosybrown;
+}
+
+.link:visited{
+	color: blue;
+}
+
+.link:active{
+	color: plum;
+}
+
+li ol{
+	display: none;
+}
+
+ol li:hover ol{
+display: block;
+}
+
+li ol{
+	margin-top: 10px;
+}
+
+.facts:focus{
+outline: 2px solid black;
+}
+
+.textinput:focus{
+box-shadow: 0 0 10px rgba( 0,0,0,0.5);
+}
+
+.facts{
+	background-color: palevioletred;
+	color: aliceblue;
+	padding: 20px;
+	display: none;
+}
+
+.facts:target{
+	display: block;
+}
+
+ol{
+	counter-reset: item;
+}
+
+ol li::before{
+counter-increment: item;
+content: counter(item) ". ";
+color: crimson;
+}
+
+.child p{
+	color:#CC0099;
+	margin-bottom: 15px;
+}
+
+.child h5{
+	background-color:#CC99FF;
+}
+
+.child h5:first-child {
+	color: #CC0033;
+}
+
+.child p:first-of-type{
+	color:#CC6666 ;
+}
+
+.child p:last-child{
+color: #CC6666;
+}
+
+.child h5:last-of-type{
+	color:#CC0033
+}
+
+.child p:nth-child(6){
+	text-shadow: 1px 1px 5px black;
+}
+
+.child p:not(:last-child){
+	margin-bottom: 15px;
+}
+
+.breeds__title{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.breeds p{
+background-color: #FF99FF;
+padding: 5px;
+}
+
+.breeds p::before{
+content: "* ";
+}
+
+.breeds p::after{
+	content: " *";
+}
+
+.breeds{
+	margin-bottom: 100px;
+}
+
+/* Гра */
+
+footer{
+	background-color: #99CC99;
+	max-width: 1000px;
+	max-height: 1000px;
+	margin: 0 auto;
+}
+
+.game__title{
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 10px;
+}
+
+.start,
+.finish {
+	color: #9933FF;
+	font-size: 20px;
+	background-color: yellow;
+	max-width: 80px;
+	min-height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.block__one{
+	max-width: 30px;
+	min-height: 90px;
+	background-color:#FFCC00;
+	margin: 0 auto;
+	visibility: hidden;
+}
+.start:hover + div,
+.block__one:hover {
+	visibility: visible;}
+
+.block__two {
+	max-width: calc(50% + 15px);
+	min-height: 25px;
+	background-color: #FFCC00;
+	visibility: hidden;
+}
+
+.block__one:hover + div,
+.block__two:hover {
+	visibility: visible;
+}
+
+.block__three {
+	max-width: 20px;
+	min-height: 100px;
+	background-color: #FFCC00;
+	visibility: hidden;
+}
+
+.block__two:hover+div,
+.block__three:hover {
+	visibility: visible;
+}
+
+.block__four {
+	max-width: calc(50% + 20px);
+	min-height: 18px;
+	background-color: #FFCC00;
+	visibility: hidden;
+}
+
+.block__three:hover+div,
+.block__four:hover {
+	visibility: visible;
+}
+
+.block__five {
+	max-width: 40px;
+	min-height: 30px;
+	margin: 0 auto;
+	background-color: #FFCC00;
+	visibility: hidden;
+}
+
+.block__four:hover+div,
+.block__five:hover {
+	visibility: visible;
+}
+
+.finish {
+	visibility: hidden;
+}
+
+.block__five:hover+div,
+.finish:hover {
+	visibility: visible;
+}
+
+.find {
+	visibility: hidden;
+	max-width: 300px;
+	margin-top: -300px;
+}
+
+.finish:hover + div,
+.find:hover {
+	visibility: visible;
+}
+
